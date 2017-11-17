@@ -12,10 +12,10 @@ window.onload = function init() {
     // Four Vertices
 
     var vertices = [
-        -0.2, 0.05,  //top rectangle top left corner
-        -0.2, -0.1,  //top rectangle bottom left corner
-        0.5, 0.05, //top rectangle top right corner
-        0.5, -0.1, // top rectangle bottom right corner
+        0,0,
+        -1,0,
+        0, -1,
+        -1,-1,
 
     ];
     numberOfvertices = 4
